@@ -1,0 +1,1910 @@
+{
+  "animals": [
+    {
+      "id": 68763542,
+      "organization_id": "CA1287",
+      "url": "https://www.petfinder.com/dog/yahtzee-11055-68763542/ca/san-francisco/muttville-senior-dog-rescue-ca1287/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shih Tzu",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": "Black",
+        "tertiary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": false,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [
+        "Adult Only Home Preferred",
+        "Kid Compatibility No Kids",
+        "Physical Stamina enjoys short walks",
+        "Stairs Maybe"
+      ],
+      "name": "Yahtzee 11055",
+      "description": "It&amp;#39;s Yahtzee! An adorable black and white Shih Tzu who&amp;#39;s ready to roll into your heart! Just like his namesake,...",
+      "organization_animal_id": "MVSF-A-10914",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:55:14+0000",
+      "published_at": "2023-09-07T05:55:13+0000",
+      "distance": null,
+      "contact": {
+        "email": "adoptions@muttville.org",
+        "phone": "(415) 272-4172",
+        "address": {
+          "address1": "255 Alabama St",
+          "address2": null,
+          "city": "San Francisco",
+          "state": "CA",
+          "postcode": "94141",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763542"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca1287"
+        }
+      }
+    },
+    {
+      "id": 68763541,
+      "organization_id": "CA1287",
+      "url": "https://www.petfinder.com/dog/alfalfa-11054-68763541/ca/san-francisco/muttville-senior-dog-rescue-ca1287/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shih Tzu",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Brown / Chocolate",
+        "secondary": "White / Cream",
+        "tertiary": null
+      },
+      "age": "Senior",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [
+        "Kid Compatibility Yes",
+        "Physical Stamina enjoys short walks",
+        "Stairs Maybe"
+      ],
+      "name": "Alfalfa 11054",
+      "description": "Alfalfa is a silly and adorable Shih Tzu. He is a very loveable guy and a total goofball. Everyone who...",
+      "organization_animal_id": "MVSF-A-10913",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/2/?bust=1694066726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/2/?bust=1694066726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/2/?bust=1694066726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/2/?bust=1694066726"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/4/?bust=1694066729&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/4/?bust=1694066729&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/4/?bust=1694066729&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/4/?bust=1694066729"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/5/?bust=1694066731&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/5/?bust=1694066731&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/5/?bust=1694066731&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/5/?bust=1694066731"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/6/?bust=1694066729&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/6/?bust=1694066729&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/6/?bust=1694066729&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763541/6/?bust=1694066729"
+        }
+      ],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:55:14+0000",
+      "published_at": "2023-09-07T05:55:13+0000",
+      "distance": null,
+      "contact": {
+        "email": "adoptions@muttville.org",
+        "phone": "(415) 272-4172",
+        "address": {
+          "address1": "255 Alabama St",
+          "address2": null,
+          "city": "San Francisco",
+          "state": "CA",
+          "postcode": "94141",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763541"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca1287"
+        }
+      }
+    },
+    {
+      "id": 68763525,
+      "organization_id": "AZ757",
+      "url": "https://www.petfinder.com/dog/benji-68763525/az/saint-david/little-angels-dog-rescue-az757/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Norfolk Terrier",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Apricot / Beige",
+        "secondary": "Yellow / Tan / Blond / Fawn",
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Small",
+      "coat": "Wire",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Affectionate",
+        "Friendly",
+        "Loyal",
+        "Playful",
+        "Smart",
+        "Curious",
+        "Loves kisses",
+        "Couch potato",
+        "Athletic"
+      ],
+      "name": "Benji",
+      "description": "Benji is estimated 9 months old. He is a total love who enjoys sleeping with his person. Is crate trained...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/2/?bust=1694065900&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/2/?bust=1694065900&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/2/?bust=1694065900&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/2/?bust=1694065900"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/3/?bust=1694065900&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/3/?bust=1694065900&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/3/?bust=1694065900&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/3/?bust=1694065900"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/4/?bust=1694065901&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/4/?bust=1694065901&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/4/?bust=1694065901&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/4/?bust=1694065901"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/5/?bust=1694065902&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/5/?bust=1694065902&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/5/?bust=1694065902&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/5/?bust=1694065902"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763525/1/?bust=1694065899"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:51:44+0000",
+      "published_at": "2023-09-07T05:51:43+0000",
+      "distance": null,
+      "contact": {
+        "email": "littleangelsdogrescue@gmail.com",
+        "phone": "(520) 632-6547",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Saint David",
+          "state": "AZ",
+          "postcode": "85630",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763525"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/az757"
+        }
+      }
+    },
+    {
+      "id": 68763523,
+      "organization_id": "AZ757",
+      "url": "https://www.petfinder.com/dog/jenny-68763523/az/saint-david/little-angels-dog-rescue-az757/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Chihuahua",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Small",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Friendly",
+        "Loyal",
+        "Smart",
+        "Brave",
+        "Curious",
+        "Protective"
+      ],
+      "name": "Jenny ",
+      "description": "Jenny is estimated 1 year old. She is pee pad and house trained. She takes a little bit to warm...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/2/?bust=1694065715&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/2/?bust=1694065715&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/2/?bust=1694065715&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/2/?bust=1694065715"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/3/?bust=1694065715&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/3/?bust=1694065715&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/3/?bust=1694065715&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/3/?bust=1694065715"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/4/?bust=1694065716&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/4/?bust=1694065716&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/4/?bust=1694065716&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/4/?bust=1694065716"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763523/1/?bust=1694065714"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:48:38+0000",
+      "published_at": "2023-09-07T05:48:37+0000",
+      "distance": null,
+      "contact": {
+        "email": "littleangelsdogrescue@gmail.com",
+        "phone": "(520) 632-6547",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Saint David",
+          "state": "AZ",
+          "postcode": "85630",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763523"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/az757"
+        }
+      }
+    },
+    {
+      "id": 68763514,
+      "organization_id": "CA974",
+      "url": "https://www.petfinder.com/dog/regis-star-courtesy-post-star-68763514/ca/newport-beach/mutts-in-need-ca974/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Terrier",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Small",
+      "coat": "Short",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Friendly",
+        "Playful"
+      ],
+      "name": "Regis *Courtesy Post *",
+      "description": "Welcome Regis! I am new to the rescue and they are still getting to know me. So far everyone loves...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/1/?bust=1694065157&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/1/?bust=1694065157&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/1/?bust=1694065157&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/1/?bust=1694065157"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/2/?bust=1694065158&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/2/?bust=1694065158&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/2/?bust=1694065158&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/2/?bust=1694065158"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/4/?bust=1694065160&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/4/?bust=1694065160&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/4/?bust=1694065160&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/4/?bust=1694065160"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/5/?bust=1694065160&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/5/?bust=1694065160&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/5/?bust=1694065160&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/5/?bust=1694065160"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763514/3/?bust=1694065159"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:39:22+0000",
+      "published_at": "2023-09-07T05:39:21+0000",
+      "distance": null,
+      "contact": {
+        "email": "MuttsInNeed@gmail.com",
+        "phone": null,
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Newport Beach",
+          "state": "CA",
+          "postcode": "92660",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763514"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca974"
+        }
+      }
+    },
+    {
+      "id": 68763512,
+      "organization_id": "TX2610",
+      "url": "https://www.petfinder.com/dog/flash-gordon-68763512/tx/lockhart/caldwell-county-animal-coalition-ccac-tx2610/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Labrador Retriever",
+        "secondary": "German Shepherd Dog",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": true,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Friendly",
+        "Affectionate",
+        "Playful",
+        "Smart",
+        "Brave",
+        "Curious",
+        "Independent",
+        "Funny",
+        "Athletic",
+        "Loves kisses",
+        "Dignified",
+        "Quiet",
+        "Loyal",
+        "Gentle"
+      ],
+      "name": "Flash Gordon",
+      "description": "Flash Gordon and his siblings were picked up by the local sheriff. They were so tiny and required frequent bottle...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/1/?bust=1694065046&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/1/?bust=1694065046&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/1/?bust=1694065046&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/1/?bust=1694065046"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/2/?bust=1694065047&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/2/?bust=1694065047&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/2/?bust=1694065047&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/2/?bust=1694065047"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/3/?bust=1694065048&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/3/?bust=1694065048&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/3/?bust=1694065048&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/3/?bust=1694065048"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/4/?bust=1694065049&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/4/?bust=1694065049&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/4/?bust=1694065049&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/4/?bust=1694065049"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/5/?bust=1694065050&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/5/?bust=1694065050&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/5/?bust=1694065050&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/5/?bust=1694065050"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763512/6/?bust=1694065051"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:37:33+0000",
+      "published_at": "2023-09-07T05:37:32+0000",
+      "distance": null,
+      "contact": {
+        "email": "info@CCACtx.org",
+        "phone": null,
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Lockhart",
+          "state": "TX",
+          "postcode": "78644",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763512"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/tx2610"
+        }
+      }
+    },
+    {
+      "id": 68763509,
+      "organization_id": "TX72",
+      "url": "https://www.petfinder.com/dog/hazelnut-68763509/tx/dallas/humane-society-of-dallas-tx72/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Large",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Hazelnut",
+      "description": "DOB: 4/30/23\n\nFor all pet inquiries, please email our Adoption Director at adoptions@dognkittycity.org or text the shelter at (214) 350-7387....",
+      "organization_animal_id": "19738114",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/2/?bust=1694065645&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/2/?bust=1694065645&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/2/?bust=1694065645&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/2/?bust=1694065645"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/3/?bust=1694065647&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/3/?bust=1694065647&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/3/?bust=1694065647&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/3/?bust=1694065647"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763509/1/?bust=1694065644"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:36:55+0000",
+      "published_at": "2023-09-07T05:36:53+0000",
+      "distance": null,
+      "contact": {
+        "email": "adoptions@dognkittycity.org",
+        "phone": "214-350-7387  ",
+        "address": {
+          "address1": "2719 Manor Way",
+          "address2": null,
+          "city": "Dallas",
+          "state": "TX",
+          "postcode": "75135",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763509"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/tx72"
+        }
+      }
+    },
+    {
+      "id": 68763508,
+      "organization_id": "NV162",
+      "url": "https://www.petfinder.com/dog/scoobert-68763508/nv/las-vegas/southern-nevada-beagle-rescue-foundation-nv162/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Beagle",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": true
+      },
+      "tags": [],
+      "name": "Scoobert",
+      "description": "Scoobert is a lemon colored female that we believe she is around 5 yrs of age. She is on the...",
+      "organization_animal_id": "19543979",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/2/?bust=1694065646&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/2/?bust=1694065646&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/2/?bust=1694065646&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/2/?bust=1694065646"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/3/?bust=1694065647&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/3/?bust=1694065647&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/3/?bust=1694065647&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/3/?bust=1694065647"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763508/1/?bust=1694065644"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:36:54+0000",
+      "published_at": "2023-09-07T05:36:52+0000",
+      "distance": null,
+      "contact": {
+        "email": "info@southernnevadabeaglerescue.com",
+        "phone": "(702) 493-9779",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Las Vegas",
+          "state": "NV",
+          "postcode": "89183",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763508"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/nv162"
+        }
+      }
+    },
+    {
+      "id": 68763505,
+      "organization_id": "TX236",
+      "url": "https://www.petfinder.com/dog/zeus-68763505/tx/dallas/dallas-animal-services-and-adoption-center-tx236/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull Terrier",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "ZEUS",
+      "description": null,
+      "organization_animal_id": "A1189315",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763505/1/?bust=1694065466"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:33:34+0000",
+      "published_at": "2023-09-07T05:33:32+0000",
+      "distance": null,
+      "contact": {
+        "email": "dasadopt@dallas.gov",
+        "phone": "(214) 671-0249",
+        "address": {
+          "address1": "1818 N. Westmoreland",
+          "address2": null,
+          "city": "Dallas",
+          "state": "TX",
+          "postcode": "75212",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763505"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/tx236"
+        }
+      }
+    },
+    {
+      "id": 68763503,
+      "organization_id": "CA1727",
+      "url": "https://www.petfinder.com/dog/carlow-68763503/ca/san-jose/pawsitive-connections-ca1727/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Schnauzer",
+        "secondary": "Siberian Husky",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "White / Cream",
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": "Medium",
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Friendly",
+        "Affectionate",
+        "Playful",
+        "Smart",
+        "Brave",
+        "Curious",
+        "Funny",
+        "Athletic",
+        "Loves Kisses"
+      ],
+      "name": "Carlow",
+      "description": null,
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/2/?bust=1694064741&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/2/?bust=1694064741&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/2/?bust=1694064741&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/2/?bust=1694064741"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/3/?bust=1694064742&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/3/?bust=1694064742&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/3/?bust=1694064742&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/3/?bust=1694064742"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763503/1/?bust=1694064740"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:32:25+0000",
+      "published_at": "2023-09-07T05:32:24+0000",
+      "distance": null,
+      "contact": {
+        "email": "pawsitiveconnectionskingsburg@gmail.com",
+        "phone": "(559) 393-1946",
+        "address": {
+          "address1": "5353 Almaden Expressway",
+          "address2": null,
+          "city": "San Jose",
+          "state": "CA",
+          "postcode": "95125",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763503"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca1727"
+        }
+      }
+    },
+    {
+      "id": 68763501,
+      "organization_id": "CA2614",
+      "url": "https://www.petfinder.com/dog/rigby-68763501/ca/san-francisco/beyond-rescue-ca2614/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Miniature Pinscher",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": true
+      },
+      "tags": [],
+      "name": "Rigby",
+      "description": "If you’re looking for a lover boy who wants to hang with you all the time and has the sweetest...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763501/1/?bust=1694064658"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:31:00+0000",
+      "published_at": "2023-09-07T05:30:59+0000",
+      "distance": null,
+      "contact": {
+        "email": "sfbeyondrescue@gmail.com",
+        "phone": "(415) 570-8931",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "San Francisco",
+          "state": "CA",
+          "postcode": "94132",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763501"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca2614"
+        }
+      }
+    },
+    {
+      "id": 68763497,
+      "organization_id": "CA2631",
+      "url": "https://www.petfinder.com/dog/zeus-68763497/ca/san-diego/a-new-life-charitable-foundation-inc-ca2631/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Australian Cattle Dog / Blue Heeler",
+        "secondary": "German Shorthaired Pointer",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Gray / Blue / Silver",
+        "secondary": "Black",
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Good with Dogs",
+        "Housetrained"
+      ],
+      "name": "Zeus",
+      "description": "Meet Zeus, the adorable ball of energy you&amp;#39;ve been dreaming of! This lively pup, a mix of Cattle Dog and...",
+      "organization_animal_id": "ANLR-A-2178",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/2/?bust=1694065001&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/2/?bust=1694065001&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/2/?bust=1694065001&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/2/?bust=1694065001"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/3/?bust=1694065003&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/3/?bust=1694065003&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/3/?bust=1694065003&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/3/?bust=1694065003"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/4/?bust=1694065001&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/4/?bust=1694065001&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/4/?bust=1694065001&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/4/?bust=1694065001"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/5/?bust=1694065003&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/5/?bust=1694065003&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/5/?bust=1694065003&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/5/?bust=1694065003"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/6/?bust=1694065004&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/6/?bust=1694065004&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/6/?bust=1694065004&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/6/?bust=1694065004"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763497/1/?bust=1694065002"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:26:31+0000",
+      "published_at": "2023-09-07T05:26:29+0000",
+      "distance": null,
+      "contact": {
+        "email": "info@anlcf.org",
+        "phone": null,
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "San Diego",
+          "state": "CA",
+          "postcode": "92130",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763497"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca2631"
+        }
+      }
+    },
+    {
+      "id": 68763496,
+      "organization_id": "CA2631",
+      "url": "https://www.petfinder.com/dog/jr-68763496/ca/san-diego/a-new-life-charitable-foundation-inc-ca2631/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Cockapoo",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": "Black",
+        "secondary": "Brown / Chocolate",
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [
+        "Good with Dogs",
+        "Housetrained"
+      ],
+      "name": "Jr",
+      "description": "Say hello to Jr, the charming bundle of joy you&amp;#39;ve been searching for! At 2 years old and weighing in...",
+      "organization_animal_id": "ANLR-A-2179",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/2/?bust=1694064998&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/2/?bust=1694064998&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/2/?bust=1694064998&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/2/?bust=1694064998"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/3/?bust=1694064999&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/3/?bust=1694064999&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/3/?bust=1694064999&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/3/?bust=1694064999"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/4/?bust=1694064996&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/4/?bust=1694064996&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/4/?bust=1694064996&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/4/?bust=1694064996"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/5/?bust=1694064999&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/5/?bust=1694064999&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/5/?bust=1694064999&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/5/?bust=1694064999"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763496/1/?bust=1694064998"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:26:31+0000",
+      "published_at": "2023-09-07T05:26:29+0000",
+      "distance": null,
+      "contact": {
+        "email": "info@anlcf.org",
+        "phone": null,
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "San Diego",
+          "state": "CA",
+          "postcode": "92130",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763496"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca2631"
+        }
+      }
+    },
+    {
+      "id": 68763494,
+      "organization_id": "CA2614",
+      "url": "https://www.petfinder.com/dog/adele-68763494/ca/san-francisco/beyond-rescue-ca2614/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "French Bulldog",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": true,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": true,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Adele",
+      "description": "Meet Adele! She&#039;s a 4-5 year old darling french bulldog. This mellow girl is a joy to have around -...",
+      "organization_animal_id": null,
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763494/1/?bust=1694064228"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:23:50+0000",
+      "published_at": "2023-09-07T05:23:49+0000",
+      "distance": null,
+      "contact": {
+        "email": "sfbeyondrescue@gmail.com",
+        "phone": "(415) 570-8931",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "San Francisco",
+          "state": "CA",
+          "postcode": "94132",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763494"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ca2614"
+        }
+      }
+    },
+    {
+      "id": 68763489,
+      "organization_id": "MO78",
+      "url": "https://www.petfinder.com/dog/frannie-68763489/mo/st-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shepherd",
+        "secondary": "Hound",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Young",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Frannie",
+      "description": "Color:tan",
+      "organization_animal_id": "1012107",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763489/1/?bust=1694064761"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:22:53+0000",
+      "published_at": "2023-09-07T05:22:51+0000",
+      "distance": null,
+      "contact": {
+        "email": "ed.vanover@petforu.com",
+        "phone": null,
+        "address": {
+          "address1": "701 Southwest Lower Lake Road",
+          "address2": null,
+          "city": "St Joseph",
+          "state": "MO",
+          "postcode": "64504",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763489"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/mo78"
+        }
+      }
+    },
+    {
+      "id": 68763488,
+      "organization_id": "MO78",
+      "url": "https://www.petfinder.com/dog/roman-candle-68763488/mo/st-joseph/friends-of-the-animal-shelter-of-st-joseph-inc-mo78/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Shepherd",
+        "secondary": "Hound",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Roman Candle",
+      "description": "Color:black",
+      "organization_animal_id": "992851",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763488/1/?bust=1694064733"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:22:52+0000",
+      "published_at": "2023-09-07T05:22:50+0000",
+      "distance": null,
+      "contact": {
+        "email": "ed.vanover@petforu.com",
+        "phone": null,
+        "address": {
+          "address1": "701 Southwest Lower Lake Road",
+          "address2": null,
+          "city": "St Joseph",
+          "state": "MO",
+          "postcode": "64504",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763488"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/mo78"
+        }
+      }
+    },
+    {
+      "id": 68763487,
+      "organization_id": "AR29",
+      "url": "https://www.petfinder.com/dog/bourbon-68763487/ar/sherwood/sherwood-humane-animal-services-ar29/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Labrador Retriever",
+        "secondary": "Hound",
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Baby",
+      "gender": "Male",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": false,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Bourbon",
+      "description": null,
+      "organization_animal_id": "23-D264",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/2/?bust=1694064761&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/2/?bust=1694064761&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/2/?bust=1694064761&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/2/?bust=1694064761"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/3/?bust=1694064761&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/3/?bust=1694064761&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/3/?bust=1694064761&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/3/?bust=1694064761"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763487/1/?bust=1694064761"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:22:35+0000",
+      "published_at": "2023-09-07T05:22:33+0000",
+      "distance": null,
+      "contact": {
+        "email": "sherwoodpaws@gmail.com",
+        "phone": "(501) 834-2287",
+        "address": {
+          "address1": "6500 North Hills Blvd.",
+          "address2": null,
+          "city": "Sherwood",
+          "state": "AR",
+          "postcode": "72116",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763487"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/ar29"
+        }
+      }
+    },
+    {
+      "id": 68763468,
+      "organization_id": "WI464",
+      "url": "https://www.petfinder.com/dog/polo-68763468/wi/fond-du-lac/sandi-paws-rescue-wi464/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Pit Bull Terrier",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Medium",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": true
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Polo",
+      "description": "This sweet girl came back to SPR because the home life had changed. Polo is a 5 year old American...",
+      "organization_animal_id": "D08302018560",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/2/?bust=1694064726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/2/?bust=1694064726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/2/?bust=1694064726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/2/?bust=1694064726"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/3/?bust=1694064726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/3/?bust=1694064726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/3/?bust=1694064726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/3/?bust=1694064726"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/4/?bust=1694064726&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/4/?bust=1694064726&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/4/?bust=1694064726&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/4/?bust=1694064726"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763468/1/?bust=1694064727"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:22:02+0000",
+      "published_at": "2023-09-07T05:22:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "sandipawsrescue@gmail.com",
+        "phone": "(844) 948-1311",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Fond Du Lac",
+          "state": "WI",
+          "postcode": "54935",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763468"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/wi464"
+        }
+      }
+    },
+    {
+      "id": 68763470,
+      "organization_id": "WI464",
+      "url": "https://www.petfinder.com/dog/bonet-68763470/wi/fond-du-lac/sandi-paws-rescue-wi464/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Mixed Breed",
+        "secondary": null,
+        "mixed": false,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Female",
+      "size": "Large",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Bonet",
+      "description": "This gorgeous young lady is Bonet, she is right around 3 yrs young. This sweetie was found as a stray...",
+      "organization_animal_id": "D05242023269",
+      "photos": [
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/2/?bust=1694064737&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/2/?bust=1694064737&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/2/?bust=1694064737&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/2/?bust=1694064737"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/3/?bust=1694064739&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/3/?bust=1694064739&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/3/?bust=1694064739&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/3/?bust=1694064739"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/4/?bust=1694064739&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/4/?bust=1694064739&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/4/?bust=1694064739&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/4/?bust=1694064739"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/5/?bust=1694064740&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/5/?bust=1694064740&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/5/?bust=1694064740&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/5/?bust=1694064740"
+        },
+        {
+          "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/6/?bust=1694064737&width=100",
+          "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/6/?bust=1694064737&width=300",
+          "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/6/?bust=1694064737&width=600",
+          "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/6/?bust=1694064737"
+        }
+      ],
+      "primary_photo_cropped": {
+        "small": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=300",
+        "medium": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=450",
+        "large": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737&width=600",
+        "full": "https://dl5zpyw5k3jeb.cloudfront.net/photos/pets/68763470/1/?bust=1694064737"
+      },
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:22:02+0000",
+      "published_at": "2023-09-07T05:22:00+0000",
+      "distance": null,
+      "contact": {
+        "email": "sandipawsrescue@gmail.com",
+        "phone": "(844) 948-1311",
+        "address": {
+          "address1": null,
+          "address2": null,
+          "city": "Fond Du Lac",
+          "state": "WI",
+          "postcode": "54935",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763470"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/wi464"
+        }
+      }
+    },
+    {
+      "id": 68763466,
+      "organization_id": "TX72",
+      "url": "https://www.petfinder.com/dog/kobe-68763466/tx/dallas/humane-society-of-dallas-tx72/?referrer_id=9f0ef590-c82e-4e46-930e-aa52a21d6a26&utm_source=api&utm_medium=partnership&utm_content=9f0ef590-c82e-4e46-930e-aa52a21d6a26",
+      "type": "Dog",
+      "species": "Dog",
+      "breeds": {
+        "primary": "Yorkshire Terrier",
+        "secondary": null,
+        "mixed": true,
+        "unknown": false
+      },
+      "colors": {
+        "primary": null,
+        "secondary": null,
+        "tertiary": null
+      },
+      "age": "Adult",
+      "gender": "Male",
+      "size": "Small",
+      "coat": null,
+      "attributes": {
+        "spayed_neutered": true,
+        "house_trained": false,
+        "declawed": null,
+        "special_needs": false,
+        "shots_current": false
+      },
+      "environment": {
+        "children": null,
+        "dogs": null,
+        "cats": null
+      },
+      "tags": [],
+      "name": "Kobe",
+      "description": "DOB: 7/3/2022\n\nMeet Kobe! A one year old Yorkshire Terrier that is sweet, friendly, and lovable despite his arrival condition....",
+      "organization_animal_id": "19738112",
+      "photos": [],
+      "primary_photo_cropped": null,
+      "videos": [],
+      "status": "adoptable",
+      "status_changed_at": "2023-09-07T05:20:40+0000",
+      "published_at": "2023-09-07T05:20:39+0000",
+      "distance": null,
+      "contact": {
+        "email": "adoptions@dognkittycity.org",
+        "phone": "214-350-7387  ",
+        "address": {
+          "address1": "2719 Manor Way",
+          "address2": null,
+          "city": "Dallas",
+          "state": "TX",
+          "postcode": "75135",
+          "country": "US"
+        }
+      },
+      "_links": {
+        "self": {
+          "href": "/v2/animals/68763466"
+        },
+        "type": {
+          "href": "/v2/types/dog"
+        },
+        "organization": {
+          "href": "/v2/organizations/tx72"
+        }
+      }
+    }
+  ],
+  "pagination": {
+    "count_per_page": 20,
+    "total_count": 161044,
+    "current_page": 1,
+    "total_pages": 8053,
+    "_links": {
+      "next": {
+        "href": "/v2/animals?type=dog&page=2"
+      }
+    }
+  }
+}

@@ -20,7 +20,10 @@ dependencyResolutionManagement {
 rootProject.name = "Pet Save"
 include(":app")
 
+include(":core:common")
 include(":core:data")
 include(":core:model")
+include(":core:network")
+include(":core:testing")
 
 include("lint")

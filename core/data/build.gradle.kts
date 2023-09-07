@@ -1,5 +1,6 @@
 plugins {
     id("petsave.android.library")
+    id("petsave.android.library.jacoco")
     id("kotlinx-serialization")
 }
 

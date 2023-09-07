@@ -2,7 +2,10 @@ import dev.sihuynh.petsave.PetSaveBuildType
 
 plugins {
     id("petsave.android.application")
-    id("org.jetbrains.kotlin.android")
+    id("petsave.android.application.flavors")
+    id("petsave.android.application.jacoco")
+    id("petsave.android.hilt")
+    id("jacoco")
 }
 
 android {
@@ -43,11 +46,19 @@ android {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
         }
     }
+
+    hilt {
+        enableAggregatingTask = true
+    }
 }
 
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
-    implementation(libs.material)
-    implementation(libs.constraintlayout)
+    implementation(libs.androidx.constraintlayout)
+    implementation(libs.android.material)
+
+    testImplementation(project(":core:testing"))
+    testImplementation(kotlin("test"))
+    kaptTest(libs.hilt.compiler)
 }

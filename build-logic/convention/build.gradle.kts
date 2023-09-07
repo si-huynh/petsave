@@ -28,9 +28,29 @@ gradlePlugin {
             id = "petsave.android.application"
             implementationClass = "AndroidApplicationConventionPlugin"
         }
+        register("androidApplicationJacoco") {
+            id = "petsave.android.application.jacoco"
+            implementationClass = "AndroidApplicationJacocoConventionPlugin"
+        }
         register("androidLibrary") {
             id = "petsave.android.library"
             implementationClass = "AndroidLibraryConventionPlugin"
+        }
+        register("androidLibraryJacoco") {
+            id = "petsave.android.library.jacoco"
+            implementationClass = "AndroidLibraryJacocoConventionPlugin"
+        }
+        register("androidTest") {
+            id = "petsave.android.test"
+            implementationClass = "AndroidTestConventionPlugin"
+        }
+        register("androidHilt") {
+            id = "petsave.android.hilt"
+            implementationClass = "AndroidHiltConventionPlugin"
+        }
+        register("androidFlavors") {
+            id = "petsave.android.application.flavors"
+            implementationClass = "AndroidApplicationFlavorsConventionPlugin"
         }
         register("androidLint") {
             id = "petsave.android.lint"
