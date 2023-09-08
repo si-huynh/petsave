@@ -39,7 +39,11 @@ class RetrofitPetSaveNetwork @Inject constructor(
     private val networkApi = Retrofit.Builder()
         .baseUrl(PETSAVE_BASE_URL)
         .callFactory(okHttpCallFactory)
-        .addConverterFactory(networkJson.asConverterFactory("application/json".toMediaType()))
+        .addConverterFactory(
+            networkJson.asConverterFactory(
+                ApiConstants.JSON_CONTENT_TYPE.toMediaType()
+            )
+        )
         .build()
         .create(RetrofitPetSaveNetworkApi::class.java)
 

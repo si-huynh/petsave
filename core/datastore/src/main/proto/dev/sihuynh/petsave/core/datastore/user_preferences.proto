@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "dev/sihuynh/petsave/core/datastore/dark_theme_config.proto";
+import "dev/sihuynh/petsave/core/datastore/theme_brand.proto";
+
+option java_package = "dev.sihuynh.petsave.core.datastore";
+option java_multiple_files = true;
+
+message UserPreferences {
+    bool use_dynamic_color = 1;
+
+    ThemeBrandProto theme_brand = 2;
+    DarkThemeConfigProto dark_theme_config = 3;
+
+    string token = 4;
+    string token_type = 5;
+    int32 expires_in = 6;
+}

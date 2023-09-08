@@ -46,10 +46,6 @@ android {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
         }
     }
-
-    hilt {
-        enableAggregatingTask = true
-    }
 }
 
 dependencies {
@@ -57,6 +53,8 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
     implementation(libs.android.material)
+
+    implementation(project(":core:logging"))
 
     testImplementation(project(":core:testing"))
     testImplementation(kotlin("test"))

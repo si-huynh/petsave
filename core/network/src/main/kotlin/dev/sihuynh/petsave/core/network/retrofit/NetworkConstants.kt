@@ -3,6 +3,7 @@ package dev.sihuynh.petsave.core.network.retrofit
 object ApiConstants {
     // const val AUTH_ENDPOINT = "oauth2/token/"
     const val ANIMALS_ENDPOINT = "animals"
+    const val JSON_CONTENT_TYPE = "application/json"
 }
 object ApiParameters {
 //    const val TOKEN_TYPE = "Bearer "
