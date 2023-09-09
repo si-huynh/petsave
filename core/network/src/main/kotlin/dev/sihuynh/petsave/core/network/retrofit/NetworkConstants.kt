@@ -1,17 +1,17 @@
 package dev.sihuynh.petsave.core.network.retrofit
 
 object ApiConstants {
-    // const val AUTH_ENDPOINT = "oauth2/token/"
+    const val AUTH_ENDPOINT = "oauth2/token/"
     const val ANIMALS_ENDPOINT = "animals"
     const val JSON_CONTENT_TYPE = "application/json"
 }
 object ApiParameters {
-//    const val TOKEN_TYPE = "Bearer "
-//    const val AUTH_HEADER = "Authorization"
-//    const val GRANT_TYPE_KEY = "grant_type"
-//    const val GRANT_TYPE_VALUE = "client_credentials"
-//    const val CLIENT_ID = "client_id"
-//    const val CLIENT_SECRET = "client_secret"
+    const val TOKEN_TYPE = "Bearer "
+    const val AUTH_HEADER = "Authorization"
+    const val GRANT_TYPE_KEY = "grant_type"
+    const val GRANT_TYPE_VALUE = "client_credentials"
+    const val CLIENT_ID = "client_id"
+    const val CLIENT_SECRET = "client_secret"
 
     const val PAGE = "page"
     const val LIMIT = "limit"

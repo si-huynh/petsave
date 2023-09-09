@@ -26,6 +26,7 @@ secrets {
 
 dependencies {
     implementation(project(":core:common"))
+    implementation(project(":core:datastore"))
     implementation(project(":core:logging"))
     implementation(project(":core:model"))
     implementation(libs.kotlinx.coroutines.android)
@@ -35,4 +36,9 @@ dependencies {
     implementation(libs.retrofit.kotlin.serialization)
 
     testImplementation(project(":core:testing"))
+    testImplementation(project(":core:datastore-test"))
+    testImplementation(libs.okhttp.mockwebserver)
+    testImplementation(libs.mockito)
+    testImplementation(libs.robolectric)
+    testImplementation(libs.truth)
 }

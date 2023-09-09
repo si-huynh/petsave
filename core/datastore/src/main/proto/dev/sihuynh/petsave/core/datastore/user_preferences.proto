@@ -15,4 +15,5 @@ message UserPreferences {
     string token = 4;
     string token_type = 5;
     int32 expires_in = 6;
+    int64 expires_at = 7;
 }

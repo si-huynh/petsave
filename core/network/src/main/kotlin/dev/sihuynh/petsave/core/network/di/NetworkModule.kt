@@ -7,7 +7,9 @@ import dagger.hilt.components.SingletonComponent
 import dev.sihuynh.petsave.core.common.network.di.ApplicationScope
 import dev.sihuynh.petsave.core.common.network.utils.ConnectivityManagerNetworkMonitor
 import dev.sihuynh.petsave.core.common.network.utils.NetworkMonitor
+import dev.sihuynh.petsave.core.datastore.PreferenceDataSource
 import dev.sihuynh.petsave.core.network.BuildConfig
+import dev.sihuynh.petsave.core.network.interceptors.AuthenticationInterceptor
 import dev.sihuynh.petsave.core.network.interceptors.LoggingInterceptor
 import dev.sihuynh.petsave.core.network.interceptors.NetworkStatusInterceptor
 import kotlinx.coroutines.CoroutineScope
@@ -31,10 +33,12 @@ object NetworkModule {
     @Singleton
     fun okHttpCallFactory(
         loggingInterceptor: HttpLoggingInterceptor,
-        networkStatusInterceptor: NetworkStatusInterceptor
+        networkStatusInterceptor: NetworkStatusInterceptor,
+        authenticationInterceptor: AuthenticationInterceptor,
     ): Call.Factory = OkHttpClient.Builder()
         .addInterceptor(loggingInterceptor)
         .addInterceptor(networkStatusInterceptor)
+        .addInterceptor(authenticationInterceptor)
         .build()
 
     @Provides
@@ -52,4 +56,10 @@ object NetworkModule {
         networkMonitor: ConnectivityManagerNetworkMonitor,
         @ApplicationScope scope: CoroutineScope,
     ) = NetworkStatusInterceptor(networkMonitor, scope)
+
+    @Provides
+    @Singleton
+    fun providesAuthenticationInterceptor(
+        dataSource: PreferenceDataSource
+    ) = AuthenticationInterceptor(dataSource)
 }

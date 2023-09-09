@@ -17,6 +17,7 @@ class PreferenceDataSource @Inject constructor(
                 token = Token(
                     value = it.token,
                     expiresIn = it.expiresIn.toLong(),
+                    expiresAt = it.expiresAt,
                     type = it.tokenType,
                 ),
                 useDynamicColor = it.useDynamicColor,
@@ -47,6 +48,7 @@ class PreferenceDataSource @Inject constructor(
             it.copy {
                 this.token = token.value
                 this.expiresIn = token.expiresIn.toInt()
+                this.expiresAt = token.expiresAt
                 this.tokenType = token.type
             }
         }

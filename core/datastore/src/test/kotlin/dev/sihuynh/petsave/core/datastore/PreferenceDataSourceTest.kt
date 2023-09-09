@@ -13,6 +13,7 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
+import java.time.Instant
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
 
@@ -77,7 +78,8 @@ class PreferenceDataSourceTest {
         subject.setTokenInfo(Token(
             value = "1",
             type = "Bearer",
-            expiresIn = 3600
+            expiresIn = 3600,
+            expiresAt = Instant.now().plusSeconds(6).epochSecond,
         ))
         val token = subject.userData.first().token
         assertEquals(token.type, "Bearer")
