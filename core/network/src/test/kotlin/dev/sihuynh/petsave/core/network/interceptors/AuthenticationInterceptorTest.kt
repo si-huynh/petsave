@@ -103,7 +103,7 @@ class AuthenticationInterceptorTest {
         // Given
         preferenceDataSource.setTokenInfo(
             Token(
-                value = "",
+                value = expiredToken,
                 expiresIn = -1,
                 expiresAt = 0L,
                 type = ""
@@ -128,7 +128,7 @@ class AuthenticationInterceptorTest {
         }
 
         val token = preferenceDataSource.userData.first().token
-        assertEquals(token.value, "validToken")
+        assertEquals(token.value, validToken)
         assertEquals(token.type, "Bearer")
         assertEquals(token.expiresIn, 3600)
         assertTrue(Instant.ofEpochSecond(token.expiresAt).isAfter(Instant.now()))
