@@ -4,7 +4,7 @@ plugins {
     `kotlin-dsl`
 }
 
-group ="dev.sihuynh.petsave.buildlogic"
+group = "dev.sihuynh.petsave.buildlogic"
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
@@ -18,8 +18,9 @@ tasks.withType<KotlinCompile>().configureEach {
 }
 
 dependencies {
-     compileOnly(libs.android.gradlePlugin)
-     compileOnly(libs.kotlin.gradlePlugin)
+    compileOnly(libs.android.gradlePlugin)
+    compileOnly(libs.kotlin.gradlePlugin)
+    compileOnly(libs.ksp.gradlePlugin)
 }
 
 gradlePlugin {
@@ -47,6 +48,10 @@ gradlePlugin {
         register("androidHilt") {
             id = "petsave.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
+        }
+        register("androidRoom") {
+            id = "petsave.android.room"
+            implementationClass = "AndroidRoomConventionPlugin"
         }
         register("androidFlavors") {
             id = "petsave.android.application.flavors"

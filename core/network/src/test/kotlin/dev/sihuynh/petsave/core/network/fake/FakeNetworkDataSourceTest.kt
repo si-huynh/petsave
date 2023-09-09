@@ -25,7 +25,7 @@ class FakeNetworkDataSourceTest {
     @Test
     fun testDeserializationOfAnimals() = runTest(testDispatcher) {
         assertEquals(
-            mockAnimal,
+            FakeAnimal.dog,
             subject.getAnimalsByType("dog").animals?.first()
         )
     }

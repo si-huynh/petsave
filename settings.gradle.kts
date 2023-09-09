@@ -22,6 +22,7 @@ include(":app")
 
 include(":core:common")
 include(":core:data")
+include(":core:database")
 include(":core:datastore")
 include(":core:datastore-test")
 include(":core:logging")
