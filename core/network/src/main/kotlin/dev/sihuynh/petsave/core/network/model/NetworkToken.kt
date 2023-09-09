@@ -1,9 +1,11 @@
 package dev.sihuynh.petsave.core.network.model
 
+import kotlinx.datetime.Clock
+import kotlinx.datetime.Instant
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 import kotlinx.serialization.Transient
-import java.time.Instant
+import kotlin.time.Duration.Companion.seconds
 
 @Serializable
 data class NetworkToken(
@@ -16,13 +18,12 @@ data class NetworkToken(
     }
 
     @Transient
-    private val requestAt: Instant = Instant.now()
+    private val requestAt: Instant = Clock.System.now()
 
     val expiresAt: Long
         get() {
             if (expiresInSeconds == null) return 0L
-
-            return requestAt.plusSeconds(expiresInSeconds.toLong()).epochSecond
+            return requestAt.plus(expiresInSeconds.seconds).toEpochMilliseconds()
         }
 
     fun isValid(): Boolean {

@@ -14,12 +14,13 @@ import dev.sihuynh.petsave.core.network.retrofit.ApiParameters.CLIENT_ID
 import dev.sihuynh.petsave.core.network.retrofit.ApiParameters.CLIENT_SECRET
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
+import kotlinx.datetime.Clock
+import kotlinx.datetime.Instant
 import kotlinx.serialization.json.Json
 import okhttp3.FormBody
 import okhttp3.Interceptor
 import okhttp3.Request
 import okhttp3.Response
-import java.time.Instant
 import javax.inject.Inject
 
 class AuthenticationInterceptor @Inject constructor(
@@ -35,12 +36,11 @@ class AuthenticationInterceptor @Inject constructor(
         }
         val token = userData.token
         val tokenValue = token.value
-        val tokenExpirationTime = Instant.ofEpochSecond(token.expiresAt)
         val request = chain.request()
 
         val interceptedRequest: Request
 
-        if (tokenExpirationTime.isAfter(Instant.now())) {
+        if (token.expiresAt > Clock.System.now()) {
             interceptedRequest = chain.createAuthenticatedRequest(tokenValue)
         } else {
             val tokenRefreshResponse = chain.refreshToken()
@@ -53,7 +53,7 @@ class AuthenticationInterceptor @Inject constructor(
                             value = newToken.accessToken!!,
                             type = newToken.tokenType!!,
                             expiresIn = newToken.expiresInSeconds!!.toLong(),
-                            expiresAt = newToken.expiresAt,
+                            expiresAt = Instant.fromEpochMilliseconds(newToken.expiresAt),
                         )
                         dataStore.setTokenInfo(saveToken)
                     }
@@ -101,7 +101,7 @@ class AuthenticationInterceptor @Inject constructor(
                     Token(
                         value = "",
                         expiresIn = -1,
-                        expiresAt = 0L,
+                        expiresAt = Instant.DISTANT_PAST,
                         type = ""
                     )
                 )

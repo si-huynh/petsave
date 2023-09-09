@@ -11,6 +11,8 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest
+import kotlinx.datetime.Clock
+import kotlinx.datetime.Instant
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import okhttp3.mockwebserver.Dispatcher
@@ -24,9 +26,9 @@ import org.junit.Test
 import org.junit.rules.TemporaryFolder
 import org.junit.runner.RunWith
 import org.robolectric.RobolectricTestRunner
-import java.time.Instant
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.seconds
 
 @RunWith(RobolectricTestRunner::class)
 class AuthenticationInterceptorTest {
@@ -74,7 +76,7 @@ class AuthenticationInterceptorTest {
             Token(
                 value = validToken,
                 expiresIn = 3600,
-                expiresAt = Instant.now().plusSeconds(6).epochSecond,
+                expiresAt = Clock.System.now() + 3600.seconds,
                 type = "Bearer"
             )
         )
@@ -105,7 +107,7 @@ class AuthenticationInterceptorTest {
             Token(
                 value = expiredToken,
                 expiresIn = -1,
-                expiresAt = 0L,
+                expiresAt = Instant.DISTANT_PAST,
                 type = ""
             )
         )
@@ -131,7 +133,7 @@ class AuthenticationInterceptorTest {
         assertEquals(token.value, validToken)
         assertEquals(token.type, "Bearer")
         assertEquals(token.expiresIn, 3600)
-        assertTrue(Instant.ofEpochSecond(token.expiresAt).isAfter(Instant.now()))
+        assertTrue(token.expiresAt > Clock.System.now())
 
         with(animalsRequest) {
             assertThat(method).isEqualTo("GET")

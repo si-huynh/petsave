@@ -6,6 +6,7 @@ import dev.sihuynh.petsave.core.model.user.ThemeBrand
 import dev.sihuynh.petsave.core.model.user.Token
 import dev.sihuynh.petsave.core.model.user.UserData
 import kotlinx.coroutines.flow.map
+import kotlinx.datetime.Instant
 import javax.inject.Inject
 
 class PreferenceDataSource @Inject constructor(
@@ -17,7 +18,7 @@ class PreferenceDataSource @Inject constructor(
                 token = Token(
                     value = it.token,
                     expiresIn = it.expiresIn.toLong(),
-                    expiresAt = it.expiresAt,
+                    expiresAt = Instant.fromEpochMilliseconds(it.expiresAt),
                     type = it.tokenType,
                 ),
                 useDynamicColor = it.useDynamicColor,
@@ -48,7 +49,7 @@ class PreferenceDataSource @Inject constructor(
             it.copy {
                 this.token = token.value
                 this.expiresIn = token.expiresIn.toInt()
-                this.expiresAt = token.expiresAt
+                this.expiresAt = token.expiresAt.toEpochMilliseconds()
                 this.tokenType = token.type
             }
         }

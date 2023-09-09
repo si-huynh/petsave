@@ -9,13 +9,14 @@ import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
 import kotlinx.coroutines.test.runTest
+import kotlinx.datetime.Clock
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.rules.TemporaryFolder
-import java.time.Instant
 import kotlin.test.assertEquals
 import kotlin.test.assertTrue
+import kotlin.time.Duration.Companion.seconds
 
 class PreferenceDataSourceTest {
     private val testScope = TestScope(UnconfinedTestDispatcher())
@@ -79,11 +80,12 @@ class PreferenceDataSourceTest {
             value = "1",
             type = "Bearer",
             expiresIn = 3600,
-            expiresAt = Instant.now().plusSeconds(6).epochSecond,
+            expiresAt = Clock.System.now() + 3600.seconds,
         ))
         val token = subject.userData.first().token
         assertEquals(token.type, "Bearer")
         assertEquals(token.value, "1")
         assertEquals(token.expiresIn, 3600)
+        assertTrue(token.expiresAt > Clock.System.now())
     }
 }
