@@ -10,19 +10,19 @@ data class AnimalAggregate(
     val animal: AnimalWithDetailsEntity,
 
     @Relation(
-        parentColumn = "animalId",
-        entityColumn = "animalId"
+        parentColumn = "animal_id",
+        entityColumn = "animal_id"
     )
     val photos: List<PhotoEntity>,
 
     @Relation(
-        parentColumn = "animalId",
-        entityColumn = "animalId"
+        parentColumn = "animal_id",
+        entityColumn = "animal_id"
     )
     val videos: List<VideoEntity>,
 
     @Relation(
-        parentColumn = "animalId",
+        parentColumn = "animal_id",
         entityColumn = "tag",
         associateBy = Junction(AnimalTagCrossRefEntity::class)
     )

@@ -25,37 +25,52 @@ import kotlinx.datetime.Instant
     foreignKeys = [
         ForeignKey(
             entity = OrganizationEntity::class,
-            parentColumns = ["organizationId"],
-            childColumns = ["organizationId"],
+            parentColumns = ["organization_id"],
+            childColumns = ["organization_id"],
             onDelete = CASCADE
         )
     ],
-    indices = [Index("organizationId")]
+    indices = [Index("organization_id")]
 )
 data class AnimalWithDetailsEntity(
     @PrimaryKey
+    @ColumnInfo(name = "animal_id")
     val animalId: Long,
+    @ColumnInfo(name = "organization_id")
     val organizationId: String,
     val name: String,
     val type: String,
     val description: String,
     val age: String,
     val species: String,
+    @ColumnInfo(name = "primary_breed")
     val primaryBreed: String,
+    @ColumnInfo(name = "second_breed")
     val secondaryBreed: String,
+    @ColumnInfo(name = "primary_color")
     val primaryColor: String,
+    @ColumnInfo(name = "secondary_color")
     val secondaryColor: String,
+    @ColumnInfo(name = "tertiary_color")
     val tertiaryColor: String,
     val gender: String,
     val size: String,
     val coat: String,
+    @ColumnInfo(name = "is_spayed_or_neutered")
     val isSpayedOrNeutered: Boolean,
+    @ColumnInfo(name = "is_declawed")
     val isDeclawed: Boolean,
+    @ColumnInfo(name = "has_special_needs")
     val hasSpecialNeeds: Boolean,
+    @ColumnInfo(name = "shots_are_current")
     val shotsAreCurrent: Boolean,
+    @ColumnInfo(name = "good_with_children")
     val goodWithChildren: Boolean,
+    @ColumnInfo(name = "good_with_dogs")
     val goodWithDogs: Boolean,
+    @ColumnInfo(name = "good_with_cats")
     val goodWithCats: Boolean,
+    @ColumnInfo(name = "adoption_status")
     val adoptionStatus: String,
     @ColumnInfo(name = "published_at")
     val publishedAt: Instant

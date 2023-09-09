@@ -1,5 +1,6 @@
 package dev.sihuynh.petsave.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.ForeignKey.Companion.CASCADE
@@ -12,16 +13,18 @@ import dev.sihuynh.petsave.core.model.animal.Media
     foreignKeys = [
         ForeignKey(
             entity = AnimalWithDetailsEntity::class,
-            parentColumns = ["animalId"],
-            childColumns = ["animalId"],
+            parentColumns = ["animal_id"],
+            childColumns = ["animal_id"],
             onDelete = CASCADE
         )
     ],
-    indices = [Index("animalId")]
+    indices = [Index("animal_id")]
 )
 data class PhotoEntity(
     @PrimaryKey(autoGenerate = true)
+    @ColumnInfo(name = "photo_id")
     val photoId: Long = 0,
+    @ColumnInfo(name = "animal_id")
     val animalId: Long,
     val medium: String,
     val full: String

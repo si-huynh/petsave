@@ -2,15 +2,15 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "132996e3df4f2bd890b041d3570fc505",
+    "identityHash": "f39e2fe7f0ec06cc8a316aeda28ae9f3",
     "entities": [
       {
         "tableName": "AnimalTagCrossRefEntity",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animalId` INTEGER NOT NULL, `tag` TEXT NOT NULL, PRIMARY KEY(`animalId`, `tag`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animal_id` INTEGER NOT NULL, `tag` TEXT NOT NULL, PRIMARY KEY(`animal_id`, `tag`))",
         "fields": [
           {
             "fieldPath": "animalId",
-            "columnName": "animalId",
+            "columnName": "animal_id",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -24,7 +24,7 @@
         "primaryKey": {
           "autoGenerate": false,
           "columnNames": [
-            "animalId",
+            "animal_id",
             "tag"
           ]
         },
@@ -43,17 +43,17 @@
       },
       {
         "tableName": "animals",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animalId` INTEGER NOT NULL, `organizationId` TEXT NOT NULL, `name` TEXT NOT NULL, `type` TEXT NOT NULL, `description` TEXT NOT NULL, `age` TEXT NOT NULL, `species` TEXT NOT NULL, `primaryBreed` TEXT NOT NULL, `secondaryBreed` TEXT NOT NULL, `primaryColor` TEXT NOT NULL, `secondaryColor` TEXT NOT NULL, `tertiaryColor` TEXT NOT NULL, `gender` TEXT NOT NULL, `size` TEXT NOT NULL, `coat` TEXT NOT NULL, `isSpayedOrNeutered` INTEGER NOT NULL, `isDeclawed` INTEGER NOT NULL, `hasSpecialNeeds` INTEGER NOT NULL, `shotsAreCurrent` INTEGER NOT NULL, `goodWithChildren` INTEGER NOT NULL, `goodWithDogs` INTEGER NOT NULL, `goodWithCats` INTEGER NOT NULL, `adoptionStatus` TEXT NOT NULL, `published_at` INTEGER NOT NULL, PRIMARY KEY(`animalId`), FOREIGN KEY(`organizationId`) REFERENCES `organizations`(`organizationId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animal_id` INTEGER NOT NULL, `organization_id` TEXT NOT NULL, `name` TEXT NOT NULL, `type` TEXT NOT NULL, `description` TEXT NOT NULL, `age` TEXT NOT NULL, `species` TEXT NOT NULL, `primary_breed` TEXT NOT NULL, `second_breed` TEXT NOT NULL, `primary_color` TEXT NOT NULL, `secondary_color` TEXT NOT NULL, `tertiary_color` TEXT NOT NULL, `gender` TEXT NOT NULL, `size` TEXT NOT NULL, `coat` TEXT NOT NULL, `is_spayed_or_neutered` INTEGER NOT NULL, `is_declawed` INTEGER NOT NULL, `has_special_needs` INTEGER NOT NULL, `shots_are_current` INTEGER NOT NULL, `good_with_children` INTEGER NOT NULL, `good_with_dogs` INTEGER NOT NULL, `good_with_cats` INTEGER NOT NULL, `adoption_status` TEXT NOT NULL, `published_at` INTEGER NOT NULL, PRIMARY KEY(`animal_id`), FOREIGN KEY(`organization_id`) REFERENCES `organizations`(`organization_id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
         "fields": [
           {
             "fieldPath": "animalId",
-            "columnName": "animalId",
+            "columnName": "animal_id",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "organizationId",
-            "columnName": "organizationId",
+            "columnName": "organization_id",
             "affinity": "TEXT",
             "notNull": true
           },
@@ -89,31 +89,31 @@
           },
           {
             "fieldPath": "primaryBreed",
-            "columnName": "primaryBreed",
+            "columnName": "primary_breed",
             "affinity": "TEXT",
             "notNull": true
           },
           {
             "fieldPath": "secondaryBreed",
-            "columnName": "secondaryBreed",
+            "columnName": "second_breed",
             "affinity": "TEXT",
             "notNull": true
           },
           {
             "fieldPath": "primaryColor",
-            "columnName": "primaryColor",
+            "columnName": "primary_color",
             "affinity": "TEXT",
             "notNull": true
           },
           {
             "fieldPath": "secondaryColor",
-            "columnName": "secondaryColor",
+            "columnName": "secondary_color",
             "affinity": "TEXT",
             "notNull": true
           },
           {
             "fieldPath": "tertiaryColor",
-            "columnName": "tertiaryColor",
+            "columnName": "tertiary_color",
             "affinity": "TEXT",
             "notNull": true
           },
@@ -137,49 +137,49 @@
           },
           {
             "fieldPath": "isSpayedOrNeutered",
-            "columnName": "isSpayedOrNeutered",
+            "columnName": "is_spayed_or_neutered",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "isDeclawed",
-            "columnName": "isDeclawed",
+            "columnName": "is_declawed",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "hasSpecialNeeds",
-            "columnName": "hasSpecialNeeds",
+            "columnName": "has_special_needs",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "shotsAreCurrent",
-            "columnName": "shotsAreCurrent",
+            "columnName": "shots_are_current",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "goodWithChildren",
-            "columnName": "goodWithChildren",
+            "columnName": "good_with_children",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "goodWithDogs",
-            "columnName": "goodWithDogs",
+            "columnName": "good_with_dogs",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "goodWithCats",
-            "columnName": "goodWithCats",
+            "columnName": "good_with_cats",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "adoptionStatus",
-            "columnName": "adoptionStatus",
+            "columnName": "adoption_status",
             "affinity": "TEXT",
             "notNull": true
           },
@@ -193,18 +193,18 @@
         "primaryKey": {
           "autoGenerate": false,
           "columnNames": [
-            "animalId"
+            "animal_id"
           ]
         },
         "indices": [
           {
-            "name": "index_animals_organizationId",
+            "name": "index_animals_organization_id",
             "unique": false,
             "columnNames": [
-              "organizationId"
+              "organization_id"
             ],
             "orders": [],
-            "createSql": "CREATE INDEX IF NOT EXISTS `index_animals_organizationId` ON `${TABLE_NAME}` (`organizationId`)"
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_animals_organization_id` ON `${TABLE_NAME}` (`organization_id`)"
           }
         ],
         "foreignKeys": [
@@ -213,21 +213,21 @@
             "onDelete": "CASCADE",
             "onUpdate": "NO ACTION",
             "columns": [
-              "organizationId"
+              "organization_id"
             ],
             "referencedColumns": [
-              "organizationId"
+              "organization_id"
             ]
           }
         ]
       },
       {
         "tableName": "organizations",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`organizationId` TEXT NOT NULL, `email` TEXT NOT NULL, `phone` TEXT NOT NULL, `address1` TEXT NOT NULL, `address2` TEXT NOT NULL, `city` TEXT NOT NULL, `state` TEXT NOT NULL, `postcode` TEXT NOT NULL, `country` TEXT NOT NULL, `distance` REAL NOT NULL, PRIMARY KEY(`organizationId`))",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`organization_id` TEXT NOT NULL, `email` TEXT NOT NULL, `phone` TEXT NOT NULL, `address1` TEXT NOT NULL, `address2` TEXT NOT NULL, `city` TEXT NOT NULL, `state` TEXT NOT NULL, `postcode` TEXT NOT NULL, `country` TEXT NOT NULL, `distance` REAL NOT NULL, PRIMARY KEY(`organization_id`))",
         "fields": [
           {
             "fieldPath": "organizationId",
-            "columnName": "organizationId",
+            "columnName": "organization_id",
             "affinity": "TEXT",
             "notNull": true
           },
@@ -289,7 +289,7 @@
         "primaryKey": {
           "autoGenerate": false,
           "columnNames": [
-            "organizationId"
+            "organization_id"
           ]
         },
         "indices": [],
@@ -297,17 +297,17 @@
       },
       {
         "tableName": "photos",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`photoId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `animalId` INTEGER NOT NULL, `medium` TEXT NOT NULL, `full` TEXT NOT NULL, FOREIGN KEY(`animalId`) REFERENCES `animals`(`animalId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`photo_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `animal_id` INTEGER NOT NULL, `medium` TEXT NOT NULL, `full` TEXT NOT NULL, FOREIGN KEY(`animal_id`) REFERENCES `animals`(`animal_id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
         "fields": [
           {
             "fieldPath": "photoId",
-            "columnName": "photoId",
+            "columnName": "photo_id",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "animalId",
-            "columnName": "animalId",
+            "columnName": "animal_id",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -327,18 +327,18 @@
         "primaryKey": {
           "autoGenerate": true,
           "columnNames": [
-            "photoId"
+            "photo_id"
           ]
         },
         "indices": [
           {
-            "name": "index_photos_animalId",
+            "name": "index_photos_animal_id",
             "unique": false,
             "columnNames": [
-              "animalId"
+              "animal_id"
             ],
             "orders": [],
-            "createSql": "CREATE INDEX IF NOT EXISTS `index_photos_animalId` ON `${TABLE_NAME}` (`animalId`)"
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_photos_animal_id` ON `${TABLE_NAME}` (`animal_id`)"
           }
         ],
         "foreignKeys": [
@@ -347,10 +347,10 @@
             "onDelete": "CASCADE",
             "onUpdate": "NO ACTION",
             "columns": [
-              "animalId"
+              "animal_id"
             ],
             "referencedColumns": [
-              "animalId"
+              "animal_id"
             ]
           }
         ]
@@ -377,17 +377,17 @@
       },
       {
         "tableName": "videos",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`videoId` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `animalId` INTEGER NOT NULL, `video` TEXT NOT NULL, FOREIGN KEY(`animalId`) REFERENCES `animals`(`animalId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`video_id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `animal_id` INTEGER NOT NULL, `video` TEXT NOT NULL, FOREIGN KEY(`animal_id`) REFERENCES `animals`(`animal_id`) ON UPDATE NO ACTION ON DELETE CASCADE )",
         "fields": [
           {
             "fieldPath": "videoId",
-            "columnName": "videoId",
+            "columnName": "video_id",
             "affinity": "INTEGER",
             "notNull": true
           },
           {
             "fieldPath": "animalId",
-            "columnName": "animalId",
+            "columnName": "animal_id",
             "affinity": "INTEGER",
             "notNull": true
           },
@@ -401,18 +401,18 @@
         "primaryKey": {
           "autoGenerate": true,
           "columnNames": [
-            "videoId"
+            "video_id"
           ]
         },
         "indices": [
           {
-            "name": "index_videos_animalId",
+            "name": "index_videos_animal_id",
             "unique": false,
             "columnNames": [
-              "animalId"
+              "animal_id"
             ],
             "orders": [],
-            "createSql": "CREATE INDEX IF NOT EXISTS `index_videos_animalId` ON `${TABLE_NAME}` (`animalId`)"
+            "createSql": "CREATE INDEX IF NOT EXISTS `index_videos_animal_id` ON `${TABLE_NAME}` (`animal_id`)"
           }
         ],
         "foreignKeys": [
@@ -421,10 +421,10 @@
             "onDelete": "CASCADE",
             "onUpdate": "NO ACTION",
             "columns": [
-              "animalId"
+              "animal_id"
             ],
             "referencedColumns": [
-              "animalId"
+              "animal_id"
             ]
           }
         ]
@@ -433,7 +433,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '132996e3df4f2bd890b041d3570fc505')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'f39e2fe7f0ec06cc8a316aeda28ae9f3')"
     ]
   }
 }

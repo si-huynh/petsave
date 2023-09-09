@@ -1,5 +1,6 @@
 package dev.sihuynh.petsave.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 import dev.sihuynh.petsave.core.model.organization.Organization
@@ -7,6 +8,7 @@ import dev.sihuynh.petsave.core.model.organization.Organization
 @Entity(tableName = "organizations")
 data class OrganizationEntity(
     @PrimaryKey(autoGenerate = false)
+    @ColumnInfo(name = "organization_id")
     val organizationId: String,
     val email: String,
     val phone: String,
