@@ -2,7 +2,7 @@
   "formatVersion": 1,
   "database": {
     "version": 1,
-    "identityHash": "ae0d6c3fa012caadae3e2fd054aa06fd",
+    "identityHash": "132996e3df4f2bd890b041d3570fc505",
     "entities": [
       {
         "tableName": "AnimalTagCrossRefEntity",
@@ -43,7 +43,7 @@
       },
       {
         "tableName": "animals",
-        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animalId` INTEGER NOT NULL, `organizationId` TEXT NOT NULL, `name` TEXT NOT NULL, `type` TEXT NOT NULL, `description` TEXT NOT NULL, `age` TEXT NOT NULL, `species` TEXT NOT NULL, `primaryBreed` TEXT NOT NULL, `secondaryBreed` TEXT NOT NULL, `primaryColor` TEXT NOT NULL, `secondaryColor` TEXT NOT NULL, `tertiaryColor` TEXT NOT NULL, `gender` TEXT NOT NULL, `size` TEXT NOT NULL, `coat` TEXT NOT NULL, `isSpayedOrNeutered` INTEGER NOT NULL, `isDeclawed` INTEGER NOT NULL, `hasSpecialNeeds` INTEGER NOT NULL, `shotsAreCurrent` INTEGER NOT NULL, `goodWithChildren` INTEGER NOT NULL, `goodWithDogs` INTEGER NOT NULL, `goodWithCats` INTEGER NOT NULL, `adoptionStatus` TEXT NOT NULL, `publishedAt` TEXT NOT NULL, PRIMARY KEY(`animalId`), FOREIGN KEY(`organizationId`) REFERENCES `organizations`(`organizationId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`animalId` INTEGER NOT NULL, `organizationId` TEXT NOT NULL, `name` TEXT NOT NULL, `type` TEXT NOT NULL, `description` TEXT NOT NULL, `age` TEXT NOT NULL, `species` TEXT NOT NULL, `primaryBreed` TEXT NOT NULL, `secondaryBreed` TEXT NOT NULL, `primaryColor` TEXT NOT NULL, `secondaryColor` TEXT NOT NULL, `tertiaryColor` TEXT NOT NULL, `gender` TEXT NOT NULL, `size` TEXT NOT NULL, `coat` TEXT NOT NULL, `isSpayedOrNeutered` INTEGER NOT NULL, `isDeclawed` INTEGER NOT NULL, `hasSpecialNeeds` INTEGER NOT NULL, `shotsAreCurrent` INTEGER NOT NULL, `goodWithChildren` INTEGER NOT NULL, `goodWithDogs` INTEGER NOT NULL, `goodWithCats` INTEGER NOT NULL, `adoptionStatus` TEXT NOT NULL, `published_at` INTEGER NOT NULL, PRIMARY KEY(`animalId`), FOREIGN KEY(`organizationId`) REFERENCES `organizations`(`organizationId`) ON UPDATE NO ACTION ON DELETE CASCADE )",
         "fields": [
           {
             "fieldPath": "animalId",
@@ -185,8 +185,8 @@
           },
           {
             "fieldPath": "publishedAt",
-            "columnName": "publishedAt",
-            "affinity": "TEXT",
+            "columnName": "published_at",
+            "affinity": "INTEGER",
             "notNull": true
           }
         ],
@@ -433,7 +433,7 @@
     "views": [],
     "setupQueries": [
       "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
-      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'ae0d6c3fa012caadae3e2fd054aa06fd')"
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '132996e3df4f2bd890b041d3570fc505')"
     ]
   }
 }

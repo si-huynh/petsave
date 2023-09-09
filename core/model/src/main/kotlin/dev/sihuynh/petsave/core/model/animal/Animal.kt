@@ -1,6 +1,6 @@
 package dev.sihuynh.petsave.core.model.animal
 
-import java.time.LocalDateTime
+import kotlinx.datetime.Instant
 
 data class Animal(
     val id: Long,
@@ -9,5 +9,5 @@ data class Animal(
     val media: Media,
     val tags: List<String>,
     val adoptionStatus: AdoptionStatus,
-    val publishedAt: LocalDateTime
+    val publishedAt: Instant
 )

@@ -1,11 +1,24 @@
 package dev.sihuynh.petsave.core.database.model
 
+import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.ForeignKey
 import androidx.room.ForeignKey.Companion.CASCADE
 import androidx.room.Index
 import androidx.room.PrimaryKey
+import dev.sihuynh.petsave.core.model.animal.AdoptionStatus
+import dev.sihuynh.petsave.core.model.animal.Media
+import dev.sihuynh.petsave.core.model.animal.details.Age
 import dev.sihuynh.petsave.core.model.animal.details.AnimalWithDetails
+import dev.sihuynh.petsave.core.model.animal.details.Breed
+import dev.sihuynh.petsave.core.model.animal.details.Coat
+import dev.sihuynh.petsave.core.model.animal.details.Colors
+import dev.sihuynh.petsave.core.model.animal.details.Details
+import dev.sihuynh.petsave.core.model.animal.details.Gender
+import dev.sihuynh.petsave.core.model.animal.details.HabitatAdaptation
+import dev.sihuynh.petsave.core.model.animal.details.HealthDetails
+import dev.sihuynh.petsave.core.model.animal.details.Size
+import kotlinx.datetime.Instant
 
 @Entity(
     tableName = "animals",
@@ -44,7 +57,8 @@ data class AnimalWithDetailsEntity(
     val goodWithDogs: Boolean,
     val goodWithCats: Boolean,
     val adoptionStatus: String,
-    val publishedAt: String
+    @ColumnInfo(name = "published_at")
+    val publishedAt: Instant
 ) {
     companion object {
         fun fromDomain(domainModel: AnimalWithDetails): AnimalWithDetailsEntity {
@@ -76,8 +90,45 @@ data class AnimalWithDetailsEntity(
                 goodWithDogs = habitatAdaptation.goodWithDogs,
                 goodWithCats = habitatAdaptation.goodWithCats,
                 adoptionStatus = domainModel.adoptionStatus.toString(),
-                publishedAt = domainModel.publishedAt.toString()
+                publishedAt = domainModel.publishedAt
             )
         }
+    }
+
+    fun toDomain(
+        photos: List<PhotoEntity>,
+        videos: List<VideoEntity>,
+        tags: List<TagEntity>,
+        organization: OrganizationEntity
+    ) = AnimalWithDetails(
+        id = animalId,
+        name = name,
+        type = type,
+        details = mapDetails(organization),
+        media = Media(
+            photos = photos.map { it.toDomain() },
+            videos = videos.map { it.toDomain() }
+        ),
+        tags = tags.map { it.tag },
+        adoptionStatus = AdoptionStatus.valueOf(adoptionStatus),
+        publishedAt = publishedAt
+    )
+
+    private fun mapDetails(organization: OrganizationEntity): Details {
+        return Details(
+            description = description,
+            age = Age.valueOf(age),
+            species = species,
+            breed = Breed(primaryBreed, secondaryBreed),
+            colors = Colors(primaryColor, secondaryColor, tertiaryColor),
+            gender = Gender.valueOf(gender),
+            size = Size.valueOf(size),
+            coat = Coat.valueOf(coat),
+            healthDetails = HealthDetails(isSpayedOrNeutered, isDeclawed,
+                hasSpecialNeeds, shotsAreCurrent),
+            habitatAdaptation = HabitatAdaptation(goodWithChildren, goodWithDogs,
+                goodWithCats),
+            organization = organization.toDomain()
+        )
     }
 }

@@ -6,10 +6,10 @@ plugins {
 }
 
 android {
-//    defaultConfig {
-//        testInstrumentationRunner =
-//            "com.google.samples.apps.petsave.core.testing.NiaTestRunner"
-//    }
+    defaultConfig {
+        testInstrumentationRunner =
+            "dev.sihuynh.petsave.core.testing.PetSaveTestRunner"
+    }
     namespace = "dev.sihuynh.petsave.core.database"
 }
 

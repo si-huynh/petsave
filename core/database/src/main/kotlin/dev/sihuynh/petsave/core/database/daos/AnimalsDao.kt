@@ -5,6 +5,7 @@ import androidx.room.Insert
 import androidx.room.OnConflictStrategy.Companion.REPLACE
 import androidx.room.Query
 import androidx.room.Transaction
+import androidx.room.Upsert
 import dev.sihuynh.petsave.core.database.model.AnimalAggregate
 import dev.sihuynh.petsave.core.database.model.AnimalWithDetailsEntity
 import dev.sihuynh.petsave.core.database.model.PhotoEntity
@@ -15,7 +16,12 @@ import kotlinx.coroutines.flow.Flow
 @Dao
 abstract class AnimalsDao {
     @Transaction
-    @Query("SELECT * FROM animals")
+    @Query(
+        value = """
+            SELECT * FROM animals
+            ORDER BY published_at DESC
+        """
+    )
     abstract fun getAllAnimals(): Flow<List<AnimalAggregate>>
 
     @Insert(onConflict = REPLACE)
@@ -24,6 +30,11 @@ abstract class AnimalsDao {
         photos: List<PhotoEntity>,
         videos: List<VideoEntity>,
         tags: List<TagEntity>
+    )
+
+    @Upsert
+    abstract suspend fun upsertAnimalsWithDetails(
+        animals: List<AnimalWithDetailsEntity>
     )
 
     suspend fun insertAnimalsWithDetails(animalAggregates: List<AnimalAggregate>) {
