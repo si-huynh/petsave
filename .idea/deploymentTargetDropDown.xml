@@ -2,10 +2,16 @@
 <project version="4">
   <component name="deploymentTargetDropDown">
     <value>
-      <entry key="AnimalsDaoTest">
+      <entry key="PetFinderAnimalRepositoryTest">
+        <State />
+      </entry>
+      <entry key="PetFinderAnimalRepositoryTest (1)">
         <State />
       </entry>
       <entry key="app">
+        <State />
+      </entry>
+      <entry key="requestMoreAnimals_success()">
         <State />
       </entry>
     </value>

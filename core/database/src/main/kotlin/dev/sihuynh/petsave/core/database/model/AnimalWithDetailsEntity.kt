@@ -7,6 +7,7 @@ import androidx.room.ForeignKey.Companion.CASCADE
 import androidx.room.Index
 import androidx.room.PrimaryKey
 import dev.sihuynh.petsave.core.model.animal.AdoptionStatus
+import dev.sihuynh.petsave.core.model.animal.Animal
 import dev.sihuynh.petsave.core.model.animal.Media
 import dev.sihuynh.petsave.core.model.animal.details.Age
 import dev.sihuynh.petsave.core.model.animal.details.AnimalWithDetails
@@ -120,6 +121,23 @@ data class AnimalWithDetailsEntity(
         name = name,
         type = type,
         details = mapDetails(organization),
+        media = Media(
+            photos = photos.map { it.toDomain() },
+            videos = videos.map { it.toDomain() }
+        ),
+        tags = tags.map { it.tag },
+        adoptionStatus = AdoptionStatus.valueOf(adoptionStatus),
+        publishedAt = publishedAt
+    )
+
+    fun toAnimalDomain(
+        photos: List<PhotoEntity>,
+        videos: List<VideoEntity>,
+        tags: List<TagEntity>
+    )  = Animal(
+        id = animalId,
+        name = name,
+        type = type,
         media = Media(
             photos = photos.map { it.toDomain() },
             videos = videos.map { it.toDomain() }

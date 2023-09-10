@@ -1,5 +1,6 @@
 package dev.sihuynh.petsave.core.network.model
 
+import kotlinx.datetime.Instant
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
@@ -25,7 +26,7 @@ data class NetworkAnimal(
     @SerialName("environment") val environment: NetworkEnvironment?,
     @SerialName("tags") val tags: List<String?>?,
     @SerialName("contact") val contact: NetworkContact?,
-    @SerialName("published_at") val publishedAt: String?,
+    @SerialName("published_at") val publishedAt: String,
     @SerialName("distance") val distance: Float?
 )
 
@@ -89,3 +90,18 @@ data class NetworkAddress(
     @SerialName("postcode") val postcode: String?,
     @SerialName("country") val country: String?
 )
+
+fun Instant.Companion.parseWithBasicOffset(string: String): Instant {
+    var lastDigit = string.length
+    while (lastDigit > 0 && string[lastDigit - 1].isDigit()) { --lastDigit }
+    val digits = string.length - lastDigit // how many digits are there at the end of the string
+    if (digits <= 2)
+        return parse(string) // no issue in any case
+    var newString = string.substring(0, lastDigit + 2)
+    lastDigit += 2
+    while (lastDigit < string.length) {
+        newString += ":" + string.substring(lastDigit, lastDigit + 2)
+        lastDigit += 2
+    }
+    return parse(newString)
+}

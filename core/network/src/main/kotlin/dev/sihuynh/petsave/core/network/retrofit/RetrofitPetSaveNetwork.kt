@@ -13,7 +13,7 @@ import retrofit2.http.Query
 import javax.inject.Inject
 import javax.inject.Singleton
 
-private interface RetrofitPetSaveNetworkApi {
+interface RetrofitPetSaveNetworkApi {
     @GET(ApiConstants.ANIMALS_ENDPOINT)
     suspend fun getNearByAnimals(
         @Query(ApiParameters.PAGE) pageToLoad: Int,

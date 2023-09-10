@@ -6,7 +6,7 @@ import dev.sihuynh.petsave.core.datastore.test.testUserPreferencesDataStore
 import dev.sihuynh.petsave.core.model.user.Token
 import dev.sihuynh.petsave.core.network.retrofit.ApiConstants
 import dev.sihuynh.petsave.core.network.retrofit.ApiParameters
-import dev.sihuynh.petsave.core.network.utils.JsonReader
+import dev.sihuynh.petsave.core.utils.JsonReader
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.TestScope
 import kotlinx.coroutines.test.UnconfinedTestDispatcher
