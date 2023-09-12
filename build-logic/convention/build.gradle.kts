@@ -45,6 +45,10 @@ gradlePlugin {
             id = "petsave.android.test"
             implementationClass = "AndroidTestConventionPlugin"
         }
+        register("androidFeature") {
+            id = "petsave.android.feature"
+            implementationClass = "AndroidFeatureConventionPlugin"
+        }
         register("androidHilt") {
             id = "petsave.android.hilt"
             implementationClass = "AndroidHiltConventionPlugin"
