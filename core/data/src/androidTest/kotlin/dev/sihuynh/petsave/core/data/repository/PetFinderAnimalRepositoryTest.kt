@@ -4,7 +4,8 @@ import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.test.platform.app.InstrumentationRegistry
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
-import dev.sihuynh.petsave.core.database.PetSaveDatabase
+import dev.sihuynh.petsave.core.database.daos.AnimalsDao
+import dev.sihuynh.petsave.core.database.daos.OrganizationsDao
 import dev.sihuynh.petsave.core.network.fake.FakeAssetManager
 import dev.sihuynh.petsave.core.network.fake.FakeNetworkDataSource
 import dev.sihuynh.petsave.core.network.model.mappers.NetworkAnimalMapper
@@ -36,7 +37,10 @@ class PetFinderAnimalRepositoryTest {
     lateinit var networkJson: Json
 
     @Inject
-    lateinit var database: PetSaveDatabase
+    lateinit var animalsDao: AnimalsDao
+
+    @Inject
+    lateinit var organizationsDao: OrganizationsDao
 
     @Inject
     lateinit var animalMapper: NetworkAnimalMapper
@@ -55,8 +59,8 @@ class PetFinderAnimalRepositoryTest {
         )
 
         repository = PetFinderAnimalRepository(
-            animalsDao = database.animalsDao(),
-            organizationsDao = database.organizationsDao(),
+            animalsDao = animalsDao,
+            organizationsDao = organizationsDao,
             network = fakeNetworkDataSource,
             animalMapper = animalMapper,
             paginationMapper = paginationMapper
