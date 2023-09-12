@@ -37,6 +37,9 @@ abstract class AnimalsDao {
         animals: List<AnimalWithDetailsEntity>
     )
 
+    @Query("DELETE FROM animals")
+    abstract suspend fun deleteAll()
+
     suspend fun insertAnimalsWithDetails(animalAggregates: List<AnimalAggregate>) {
         for (aggregate in animalAggregates) {
             insertAnimalAggregate(
