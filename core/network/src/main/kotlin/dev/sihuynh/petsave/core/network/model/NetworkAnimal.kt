@@ -6,7 +6,7 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class NetworkAnimal(
-    @SerialName("id") val id: Long?,
+    @SerialName("id") val id: Long,
     @SerialName("organization_id") val organizationId: String?,
     @SerialName("url") val url: String?,
     @SerialName("type") val type: String?,
