@@ -31,4 +31,6 @@ include(":core:model")
 include(":core:network")
 include(":core:testing")
 
+include(":feature:animals")
+
 include("lint")

@@ -6,6 +6,7 @@ plugins {
     id("petsave.android.application.jacoco")
     id("petsave.android.hilt")
     id("jacoco")
+    alias(libs.plugins.kotlin.android)
 }
 
 android {
@@ -41,6 +42,10 @@ android {
         }
     }
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     packaging {
         resources {
             excludes.add("/META-INF/{AL2.0,LGPL2.1}")
@@ -55,6 +60,9 @@ dependencies {
     implementation(libs.android.material)
 
     implementation(project(":core:logging"))
+    implementation(project(":feature:animals"))
+    implementation(libs.androidx.navigation.fragment)
+    implementation(libs.androidx.navigation.ui)
 
     testImplementation(project(":core:testing"))
     testImplementation(kotlin("test"))
