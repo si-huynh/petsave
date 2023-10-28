@@ -54,7 +54,7 @@ object FakeAnimal {
         videos = emptyList(),
         status = "adoptable",
         publishedAt = "2023-09-07T05:55:13+0000",
-        distance = null,
+        distance = 0f,
         contact = NetworkContact(
             email = "adoptions@muttville.org",
             phone = "(415) 272-4172",

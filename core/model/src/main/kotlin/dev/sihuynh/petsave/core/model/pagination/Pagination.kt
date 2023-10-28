@@ -7,7 +7,7 @@ data class Pagination(
 
     companion object {
         const val UNKNOWN_TOTAL = -1
-        const val DEFAULT_PAGE_SIZE = 20
+        const val DEFAULT_PAGE_SIZE = 30
     }
 
     val canLoadMore: Boolean

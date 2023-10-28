@@ -20,6 +20,7 @@ interface RetrofitPetSaveNetworkApi {
         @Query(ApiParameters.LIMIT) pageSize: Int,
         @Query(ApiParameters.LOCATION) postcode: String,
         @Query(ApiParameters.DISTANCE) maxDistance: Int,
+        // @Query("sort") sort: String = "distance"
     ): NetworkPaginatedAnimals
 
     @GET(ApiConstants.ANIMALS_ENDPOINT)

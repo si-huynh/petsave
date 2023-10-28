@@ -1,5 +1,6 @@
 package dev.sihuynh.petsave.core.database.daos
 
+import androidx.paging.PagingSource
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.OnConflictStrategy.Companion.REPLACE
@@ -15,6 +16,15 @@ import kotlinx.coroutines.flow.Flow
 
 @Dao
 abstract class AnimalsDao {
+    @Transaction
+    @Query(
+        value = """
+            SELECT * FROM animals
+            ORDER BY published_at DESC
+        """
+    )
+    abstract fun getPaginatedAnimals(): PagingSource<Int, AnimalAggregate>
+
     @Transaction
     @Query(
         value = """

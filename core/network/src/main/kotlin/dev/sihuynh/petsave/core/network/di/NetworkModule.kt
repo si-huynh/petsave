@@ -7,9 +7,11 @@ import dagger.hilt.components.SingletonComponent
 import dev.sihuynh.petsave.core.common.network.utils.ConnectivityManagerNetworkMonitor
 import dev.sihuynh.petsave.core.datastore.PreferenceDataSource
 import dev.sihuynh.petsave.core.network.BuildConfig
+import dev.sihuynh.petsave.core.network.PetSaveNetworkDataSource
 import dev.sihuynh.petsave.core.network.interceptors.AuthenticationInterceptor
 import dev.sihuynh.petsave.core.network.interceptors.LoggingInterceptor
 import dev.sihuynh.petsave.core.network.interceptors.NetworkStatusInterceptor
+import dev.sihuynh.petsave.core.network.retrofit.RetrofitPetSaveNetwork
 import kotlinx.serialization.json.Json
 import okhttp3.Call
 import okhttp3.OkHttpClient
@@ -19,6 +21,14 @@ import javax.inject.Singleton
 @Module
 @InstallIn(SingletonComponent::class)
 object NetworkModule {
+
+    @Provides
+    @Singleton
+    fun providersNetworkDataSource(
+        networkJson: Json,
+        okHttpCallFactory: Call.Factory
+    ): PetSaveNetworkDataSource =
+        RetrofitPetSaveNetwork(networkJson, okHttpCallFactory)
 
     @Provides
     @Singleton
@@ -43,7 +53,7 @@ object NetworkModule {
     fun providesHttpLoggingInterceptor(loggingInterceptor: LoggingInterceptor) =
         HttpLoggingInterceptor(loggingInterceptor).apply {
             if (BuildConfig.DEBUG) {
-                level = HttpLoggingInterceptor.Level.BODY
+                level = HttpLoggingInterceptor.Level.BASIC
             }
         }
 

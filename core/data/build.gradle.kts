@@ -29,9 +29,7 @@ dependencies {
     implementation(project(":core:network"))
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.paging)
-//    implementation(libs.room.ktx)
-//    implementation(libs.room.runtime)
-//    ksp(libs.room.compiler)
+    implementation(libs.androidx.room.paging)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.datetime)
     implementation(libs.kotlinx.serialization.json)
@@ -40,6 +38,5 @@ dependencies {
     testImplementation(project(":core:datastore-test"))
     androidTestImplementation(libs.androidx.arch.core.testing)
     androidTestImplementation(libs.okhttp.mockwebserver)
-    androidTestImplementation(libs.retrofit.kotlin.serialization)
     androidTestImplementation(project(":core:testing"))
 }

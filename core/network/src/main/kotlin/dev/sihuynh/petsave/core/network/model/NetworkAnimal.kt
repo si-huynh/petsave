@@ -27,7 +27,7 @@ data class NetworkAnimal(
     @SerialName("tags") val tags: List<String?>?,
     @SerialName("contact") val contact: NetworkContact?,
     @SerialName("published_at") val publishedAt: String,
-    @SerialName("distance") val distance: Float?
+    @SerialName("distance") val distance: Float
 )
 
 @Serializable

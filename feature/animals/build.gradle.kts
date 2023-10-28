@@ -18,8 +18,14 @@ dependencies {
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.paging)
 
+    implementation(libs.coil.kt)
+
+    implementation(project(":core:common"))
     implementation(project(":core:data"))
+    implementation(project(":core:domain"))
+    implementation(project(":core:database"))
     implementation(project(":core:model"))
 }

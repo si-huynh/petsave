@@ -12,5 +12,6 @@ data class AnimalWithDetails(
     val media: Media,
     val tags: List<String>,
     val adoptionStatus: AdoptionStatus,
-    val publishedAt: Instant
+    val publishedAt: Instant,
+    val distance: Float
 )

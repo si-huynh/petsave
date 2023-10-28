@@ -3,6 +3,7 @@ package dev.sihuynh.petsave.core.database
 import androidx.room.Database
 import androidx.room.RoomDatabase
 import androidx.room.TypeConverters
+import androidx.room.withTransaction
 import dev.sihuynh.petsave.core.database.daos.AnimalsDao
 import dev.sihuynh.petsave.core.database.daos.OrganizationsDao
 import dev.sihuynh.petsave.core.database.daos.RemoteKeysDao
@@ -25,7 +26,7 @@ import dev.sihuynh.petsave.core.database.util.InstantConverter
         VideoEntity::class,
         RemoteKeys::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = true
 )
 @TypeConverters(InstantConverter::class)
@@ -35,4 +36,8 @@ abstract class PetSaveDatabase : RoomDatabase() {
     abstract fun animalsDao(): AnimalsDao
 
     abstract fun remoteKeysDao(): RemoteKeysDao
+
+    suspend fun <R> performTransaction(block: suspend () -> R) {
+        this.withTransaction(block)
+    }
 }

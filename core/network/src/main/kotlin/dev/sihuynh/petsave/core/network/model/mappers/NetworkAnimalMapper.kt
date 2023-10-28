@@ -25,14 +25,15 @@ class NetworkAnimalMapper @Inject constructor(
 ): NetworkMapper<NetworkAnimal, AnimalWithDetails> {
     override fun mapToDomain(networkEntity: NetworkAnimal): AnimalWithDetails {
         return AnimalWithDetails(
-            id = networkEntity.id ?: throw MappingException("Animal ID cannot be nulll"),
+            id = networkEntity.id,
             name = networkEntity.name.orEmpty(),
             type = networkEntity.type.orEmpty(),
             details = parseAnimalDetails(networkEntity),
             media = mapMedia(networkEntity),
             tags = networkEntity.tags.orEmpty().map { it.orEmpty() },
             adoptionStatus = parseAdoptionStatus(networkEntity.status),
-            publishedAt = Instant.parseWithBasicOffset(networkEntity.publishedAt)
+            publishedAt = Instant.parseWithBasicOffset(networkEntity.publishedAt),
+            distance = networkEntity.distance
         )
     }
 
@@ -96,7 +97,7 @@ class NetworkAnimalMapper @Inject constructor(
         return Organization(
             id = apiAnimal.organizationId ?: throw MappingException("Organization ID cannot be null"),
             contact = contactMapper.mapToDomain(apiAnimal.contact),
-            distance = apiAnimal.distance ?: -1f
+            distance = apiAnimal.distance
         )
     }
 }

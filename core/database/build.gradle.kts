@@ -16,6 +16,7 @@ android {
 dependencies {
     implementation(project(":core:model"))
 
+    implementation(libs.androidx.room.paging)
     implementation(libs.kotlinx.coroutines.android)
     implementation(libs.kotlinx.datetime)
 

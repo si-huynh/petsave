@@ -84,7 +84,8 @@ private fun testAnimal(id: Long, millisSinceEpoch: Long)
         goodWithDogs = false,
         goodWithCats = false,
         adoptionStatus = "",
-        publishedAt = Instant.fromEpochMilliseconds(millisSinceEpoch)
+        publishedAt = Instant.fromEpochMilliseconds(millisSinceEpoch),
+        distance = 0f,
     )
 
 private fun testOrganization()

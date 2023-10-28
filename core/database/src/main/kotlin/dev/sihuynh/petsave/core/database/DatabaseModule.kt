@@ -20,5 +20,5 @@ object DatabaseModule {
         context = context,
         klass = PetSaveDatabase::class.java,
         name = "petsave-database"
-    ).build()
+    ).fallbackToDestructiveMigration().build()
 }

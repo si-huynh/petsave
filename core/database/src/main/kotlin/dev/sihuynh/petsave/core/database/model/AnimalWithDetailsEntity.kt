@@ -74,7 +74,9 @@ data class AnimalWithDetailsEntity(
     @ColumnInfo(name = "adoption_status")
     val adoptionStatus: String,
     @ColumnInfo(name = "published_at")
-    val publishedAt: Instant
+    val publishedAt: Instant,
+    @ColumnInfo(name = "distance")
+    val distance: Float
 ) {
     companion object {
         fun fromDomain(domainModel: AnimalWithDetails): AnimalWithDetailsEntity {
@@ -106,7 +108,8 @@ data class AnimalWithDetailsEntity(
                 goodWithDogs = habitatAdaptation.goodWithDogs,
                 goodWithCats = habitatAdaptation.goodWithCats,
                 adoptionStatus = domainModel.adoptionStatus.toString(),
-                publishedAt = domainModel.publishedAt
+                publishedAt = domainModel.publishedAt,
+                distance = domainModel.distance
             )
         }
     }
@@ -127,7 +130,8 @@ data class AnimalWithDetailsEntity(
         ),
         tags = tags.map { it.tag },
         adoptionStatus = AdoptionStatus.valueOf(adoptionStatus),
-        publishedAt = publishedAt
+        publishedAt = publishedAt,
+        distance = distance
     )
 
     fun toAnimalDomain(
